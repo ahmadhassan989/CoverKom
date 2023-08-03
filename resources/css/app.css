@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    direction: rtl !important;
+    text-align: right !important;
+
+
+}
+body {
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147)) !important;
+
+}
+
+.green-button {
+    background-color: #3aa77a;
+    min-height: 2.5rem;
+}
+.green-button:hover {
+    background-color: #3bc28a;
+}
+.red-button {
+    background-color: #eb1f1f;
+    min-height: 40px;
+}
+.red-button:hover {
+    background-color: #d13030;
+}
+.my-logo {
+    display: flex;
+    justify-content: center;
+    padding: 0rem;
+
+}
+.my-logo img {
+    width: 100%;
+    max-height: 200px;
+}
+.cover-nav {
+    background-color: #31a67a;
+}
+
+.order-img  img{
+    height: 145px;
+}
+.warn-note {
+    font-size: 0.6rem !important;
+    color: rgb(248 113 113);
+}
+.ring-g {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) rgb(0 177 124);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.align-end { align-items: end}
+/* active:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500
+hover:bg-gray-700 focus:bg-gray-700 */
+
